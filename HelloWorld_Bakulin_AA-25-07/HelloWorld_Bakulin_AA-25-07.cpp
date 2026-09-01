@@ -1,11 +1,19 @@
-// HelloWorld_Bakulin_AA-25-07.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
 
 #include <iostream>
 
 int main()
 {
     std::cout << "Hello World!\n";
+    int x;
+    std::cin >> x;
+    std::cout << "Result: ";
+    if (x != 0) {
+        std::cout << 10 / x;
+    }
+    else {
+        std::cout << "X equals 0";
+    }
+    return 0;
 }
 
 
